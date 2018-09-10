@@ -1,0 +1,25 @@
+CALCULATING A TIP
+
+IF poor service THEN
+	COMPUTE Total * .10
+ELSE standard service
+	COMPUTE Total * .15
+ELSE excellent service
+	COMPUTE Total * .20
+ENDIF
+
+DETERMINING WHAT TO WEAR
+
+IF Wednesday THEN
+	Pink
+ELSE
+	No sweat pants
+ENDIF
+
+GETTING TO WORK
+
+IF sunny  and warm THEN
+	Walk or Ride bike
+ELSE
+	Drive
+ENDIF
