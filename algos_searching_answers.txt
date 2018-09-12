@@ -3,3 +3,8 @@
 3.	n equals ten: 34, 21, 13, 8,  5,3, 2, 1, 1, 0= 88
 	  n equals eleven: 88, 34, 21, 13, 8, 5, 3, 2, 1, 1, 0 = 176
 	  n equals twelve: 176, 88, 34, 21, 13, 8, 5, 3, 2, 1, 1, 0 = 352
+
+1. 1.	Even though it would take a while, I would run a linear search.
+	The reason is because binary search only works on sorted items.
+2. 2.	In this case I would simply use a binary search. As the items are sorted,
+	you would easily be able to narrow down the search quickly.
