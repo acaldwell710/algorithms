@@ -1,6 +1,6 @@
 def binarysearch(collection, value, low, high)
 	if (high < low)
-		return low
+		return -1
 	  mid = (low + high) / 2
   	if (collection[mid] > value)
   		return binarysearch(collection, value, low, mid-1)
@@ -8,5 +8,6 @@ def binarysearch(collection, value, low, high)
   		return binarysearch(collection, value, mid+1, high)
   	else
   		return mid
+		end
   end
 end

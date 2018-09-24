@@ -12,5 +12,5 @@ def binarysearch(collection, value)
 			return mid
 		end
 	end
-	return low
+	return -1
 end
