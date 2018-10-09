@@ -1,0 +1,23 @@
+1. An algorithm that O(1) is email delivered via high speed internet
+and an algorithm that has O(2^n) is mail delivered via a pigeon.
+
+2. The best case scenario is always the first item (zero index).
+
+3. The worst case scenario is the last item in a collection.
+
+4. The item lies somewhere between best case scenario (first item)
+and worst case scenario (last item) with bounded case scenario.
+
+6.  ∞
+7. O(n^2)
+8.
+def method_name(n)
+for n in 1..n
+  if n <= 10
+    puts n
+  end
+end
+
+10. 10
+11. 1
+12. 5
