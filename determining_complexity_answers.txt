@@ -1,0 +1,15 @@
+1. It's constant...so 1.
+
+2. It's n. It's the last item in the collection.
+
+3. This is going to be a loglinear time complexity
+due to the fact there is is a sub-collection which slows the
+process down.
+
+4. I think this is also loglinear because of the
+recursive call.
+
+5. I think this is linear because it appears to be iterating.
+
+6. I think this is logarithmic because of the high and low value
+settings. It's quite similar to binary search.
