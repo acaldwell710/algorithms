@@ -9,7 +9,7 @@ and an algorithm that has O(2^n) is mail delivered via a pigeon.
 and worst case scenario (last item) with bounded case scenario.
 
 6.  ∞
-7. O(n^2)
+7. O(n2)
 8.
 def method_name(n)
 for n in 1..n
@@ -18,6 +18,6 @@ for n in 1..n
   end
 end
 
-10. 10
-11. 1
-12. 5
+10. O(logn)
+11. Ω(1)
+12. Ө(logn)
