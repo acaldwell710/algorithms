@@ -2,12 +2,13 @@
 
 2. It's n. It's the last item in the collection.
 
-3. This is going to be a loglinear time complexity
-due to the fact there is is a sub-collection which slows the
-process down.
+3. This is going to be a linear time complexity
+due to the fact this is iterating over each item in the collection,
+and no matter the size of the collection largest can't be found and
+returned until each item is compared to largest within the collection.
 
-4. I think this is also loglinear because of the
-recursive call.
+4. I think this is constant because no matter what integer is the first to
+come, an answer will be returned for it.
 
 5. I think this is linear because it appears to be iterating.
 
