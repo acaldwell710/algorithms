@@ -1,6 +1,8 @@
 
-      def better_written_ruby(array)
-        sorted_array = [array.delete_at(0)]
+      def better_written_ruby(*arrays)
+        arrays.each do |array|
+          sorted_array = [array.delete_at(0)]
+        end
 
         for val in array
           i = 0

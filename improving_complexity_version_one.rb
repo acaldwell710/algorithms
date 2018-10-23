@@ -1,13 +1,15 @@
 # This method takes n arrays as input and combine them in sorted ascending  order
- def poorly_written_ruby(arrays)
+ def poorly_written_ruby(*arrays)
    combined_array = []
-   cal = combined_array.length-1
+   cal = combined_array.length
    #for each n arrays, each array will be iterated through
-   arrays.each do |value|
+   arrays.each do |array|
+     array.each do |value|
        combined_array << value
+     end
    end
 
-   sorted_array = [combined_array.delete_at(cal)]
+   sorted_array = [combined_array.delete_at(cal - 1)]
 
    for val in combined_array
      i = 0
