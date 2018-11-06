@@ -1,26 +1,16 @@
-# This method takes n arrays as input and combine them in sorted ascending  order
- def ruby_sort(*arrays)
-   arrays.each do |array|
-     if array.length <= 1
-       array
-     else
-       mid = (array.length / 2).floor
-       left = ruby_sort(array[0..mid -1])
-       right = ruby_sort(array[mid..array.length])
-
-       combine(left, right)
-     end
-   end
- end
-
- def combine(left, right)
-   if left.empty?
-     right
-   elsif right.empty?
-     left
-   elsif left.first < right.first
-     [left.first] + combine(left[1..left.length], right)
-   else
-     [right.first] + combine(left, right[1..right.length])
-   end
- end
+def better_written_ruby(*arrays)
+  sorted_array = arrays.flatten
+  n = sorted_array.length
+  begin
+    swapped = false
+    (n - 1).times do |i|
+      if sorted_array[i] > sorted_array[i + 1]
+        tmp = sorted_array[i]
+        sorted_array[i] = sorted_array[i + 1]
+        sorted_array[i + 1] = tmp
+        swapped = true
+      end
+    end
+  end until not swapped
+    sorted_array
+end
